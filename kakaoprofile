@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>카카오톡 프로필 사진</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
+          rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Noto Serif KR', serif;
+        }
+
+        .contant {
+            width: 480px;
+            height: 800px;
+
+            border: 1px solid lightgray;
+            margin: 50px auto;
+            position: relative;
+
+        }
+        .pinkbox {
+            height: 500px;
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 50px;
+        }
+
+
+        .whitebox {
+            height: 300px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0 100px;
+        }
+        .mymessage {
+
+            text-align: center;
+            color: white;
+
+        }
+        .bottomicon {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 10pt;
+        }
+
+
+        .selfchat {
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .editprofile {
+
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .story {
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .photo {
+            width: 100px;
+            height: 100px;
+            top: 450px;
+            bottom: 50px;
+            left: 190px;
+            object-fit: cover;
+            border-radius: 50%;
+            position: absolute;
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="contant">
+        <div class="pinkbox">
+            <div class="line"><hr width="100%" align="center" color=gray></hr></div>
+
+            <div class="mymessage">
+                12월 13일부터 시작합니다
+            </div>
+        </div>
+        <img
+            class="photo"
+            src="https://pbs.twimg.com/profile_images/1446063353558802435/WO-JwRe1_400x400.jpg"
+        />
+        <div class="whitebox">
+            <p><h3>내일배움캠프</h3></p>
+           <div class="bottomicon">
+                <div class="selfchat">
+                    <img class="icon" src="https://teamsparta.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa1e986b0-d5ab-4e8c-b328-3e3778f3077e%2F%E1%84%82%E1%85%A1%E1%84%8B%E1%85%AA%E1%84%8B%E1%85%B4_%E1%84%8E%E1%85%A2%E1%84%90%E1%85%B5%E1%86%BC.png?table=block&id=4a6c975c-1560-46fe-9b0e-ab9316f06cc1&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=240&userId=&cache=v2" style="width: 70px"/>
+                    <h4>나와의 채팅</h4>
+                </div>
+                <div class="editprofile">
+                    <img class="icon"
+                         src="https://teamsparta.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3f47f9b4-ddb6-4273-b844-89ce402ecdbe%2F%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%91%E1%85%B5%E1%86%AF%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5.png?table=block&amp;id=0846c90b-1d2e-452b-8a11-cc2b3740aa3f&amp;spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&amp;width=240&amp;userId=&amp;cache=v2"
+                         style="
+                                                    width: 70px
+                                                    margin-left: 20px;
+                                                    margin-right: 20px;
+                                                    margin-left: 20px;
+                                                    width: 70px;
+                                                    ">
+                    <h4>프로필 관리</h4>
+                </div>
+                <div class="story">
+                    <img class="icon" src="https://teamsparta.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb5528682-60d4-423e-94c9-df051a14ff65%2F%E1%84%8F%E1%85%A1%E1%84%89%E1%85%B3.png?table=block&id=6497fccb-8352-448f-86b0-c61e8b26ff29&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=240&userId=&cache=v2" style="width: 70px"/>
+                    <h4>카카오 스토리</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
