@@ -1,0 +1,142 @@
+
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.icon-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  max-width: 720px;
+  border-bottom: 1px solid lightgray;
+}
+
+.icon-top #camera {
+  margin: 3% 5%;
+  width: 6%;
+
+}
+.icon-top #logo {
+
+  width: 27%;
+
+}
+.icon-top #direct {
+
+  margin: 3% 5%;
+  width: 6%;
+
+}
+
+.feed-wrap{
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.story-container {
+  padding-left: 1%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
+}
+
+.story-wrapper{
+  flex-direction : column;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: auto;
+  margin: 2.5% 3.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.story-wrapper .story img {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-top-width: 10px;
+
+}
+.story-wrapper .story p {
+  margin-top: 10%;
+  margin-bottom: 0%;
+  font-size: 12px;
+
+}
+
+
+.user{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.user-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-left b{
+  font-size: 20px;
+}
+.user-left img{
+  width: 8%;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  margin: 0 2%;
+
+}
+#photo img{
+  width: 100%;
+}
+.icons{
+  margin: 4% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.like img{
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+
+
+}
+.like {
+  display: flex;
+  flex-direction : column;
+  justify-content: space-around;
+}
+#comment{
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 720px;
+  border-top: 1px solid lightgray;
+  background-color: white;
+}
+.icon-bottom{
+
+  margin: 4% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
